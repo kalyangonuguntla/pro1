@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'your-git-repo-url'
+                git 'https://github.com/kalyangonuguntla/pro1.git'
             }
         }
         stage('Build') {
